@@ -19,6 +19,7 @@ const SearchBar = ({onSearch} : SearchBarProps) => {
         <input type='text' className="border border-gray-300 rounded-1 py-2 px-4 w-full focus:outline-none focus:border-blue-500"
         value={query}
         onChange={handleChange}
+        placeholder='Search a Movie...'
         />
         <button
         type="submit"

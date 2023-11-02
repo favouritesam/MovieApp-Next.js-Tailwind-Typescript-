@@ -1,15 +1,9 @@
-// import Image from 'next/image'
-// import Link from 'next/link' 
 import Head from "next/head";
-import {useState} from 'react'
 import MovieSearch from "./components/MovieSearch";
 import FetchMovie from "./components/FetchMovie";
-import { searchMovies } from "../app/services/movie.service"
-// import SearchBar from "./components/SearchBar";
-import page from "./news/page";
 
 
-// import FetchMovie from "./components/FetchMovie";
+
 export default function Home() {
  
   return (

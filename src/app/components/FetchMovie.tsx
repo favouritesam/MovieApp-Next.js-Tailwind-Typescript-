@@ -1,5 +1,4 @@
 "use client"
-// pages/index.tsx
 import { useState, useEffect } from 'react';
 import { MovieCardProps } from './Fetchmoviecard';
 
